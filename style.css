@@ -31,6 +31,7 @@ section{
     padding: 15vh 0vh;
     line-height: 3em;
     padding-left: 30px;
+    padding-right: 30px;
     font-family: var(--fonte-padrao);
 }
 section > p{
@@ -45,6 +46,8 @@ section > h2{
 section.imagem{
     background-color: rgba(53, 53, 53, 0.993);
     color: white;
+    max-width: 400px;
+    min-width: 260px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.623);
     background-attachment: fixed;
     background-size: cover;
